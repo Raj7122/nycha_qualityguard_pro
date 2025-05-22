@@ -1,0 +1,30 @@
+# Core web framework
+Flask==3.0.2
+python-dotenv==1.0.1
+
+# HTTP requests
+requests==2.32.3
+
+# Data processing
+pandas==2.2.3
+numpy==1.26.4  # Required by pandas and scikit-learn
+
+# Natural Language Processing
+nltk==3.8.1
+scikit-learn==1.4.1.post1
+
+# Agent frameworks
+mcp==1.9.1
+smolagents==0.1.0
+
+# Database
+psycopg==3.1.18
+
+# Additional useful packages
+gunicorn==21.2.0  # Production WSGI server
+pytest==8.1.0     # Testing framework
+black==24.2.0     # Code formatting
+flake8==7.0.0     # Code linting
+python-jose==3.3.0  # JWT tokens
+passlib==1.7.4    # Password hashing
+bcrypt==4.1.2     # Password hashing backend 
