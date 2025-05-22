@@ -6,6 +6,8 @@ Main application entry point for the NYCHA QualityGuard Pro backend service.
 import os
 from flask import Flask, jsonify
 from dotenv import load_dotenv
+from backend.api.routes.data_routes import data_bp
+from backend.api.routes.complaints_routes import complaints_bp
 
 # Load environment variables from .env file
 load_dotenv()
@@ -16,6 +18,10 @@ def create_app(config_object='config.development.DevelopmentConfig'):
     
     # Load configuration
     app.config.from_object(config_object)
+    
+    # Register blueprints
+    app.register_blueprint(data_bp)
+    app.register_blueprint(complaints_bp)
     
     # Register routes
     @app.route('/')
