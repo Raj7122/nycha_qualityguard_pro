@@ -1,0 +1,6 @@
+contractor_id,contractor_name,specialization,base_rework_propensity
+CONTR_001,Higgins Group,Electrical,0.053
+CONTR_002,May Group,General Maintenance,0.059
+CONTR_003,"Kirk, Jones and Lamb",Electrical,0.215
+CONTR_004,"Rodriguez, Johnson and Osborn",General Maintenance,0.102
+CONTR_005,"Ross, Ward and Pierce",HVAC,0.202

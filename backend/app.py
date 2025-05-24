@@ -8,11 +8,14 @@ from flask import Flask, jsonify
 from dotenv import load_dotenv
 from backend.api.routes.data_routes import data_bp
 from backend.api.routes.complaints_routes import complaints_bp
+from backend.api.routes.maintenance_routes import maintenance_bp
+from backend.api.routes.agents_routes import agents_bp
+from backend.config import DevelopmentConfig
 
 # Load environment variables from .env file
 load_dotenv()
 
-def create_app(config_object='config.development.DevelopmentConfig'):
+def create_app(config_object=DevelopmentConfig):
     """Create and configure the Flask application."""
     app = Flask(__name__)
     
@@ -22,6 +25,8 @@ def create_app(config_object='config.development.DevelopmentConfig'):
     # Register blueprints
     app.register_blueprint(data_bp)
     app.register_blueprint(complaints_bp)
+    app.register_blueprint(maintenance_bp)
+    app.register_blueprint(agents_bp)
     
     # Register routes
     @app.route('/')

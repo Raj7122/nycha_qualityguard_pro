@@ -1,0 +1,501 @@
+wo_id,asset_id,created_date,closed_date,complaint_type_simulated,resolution_text_simulated,assigned_contractor_id,actual_rework_needed
+WO_0001,ASSET_038,2025-03-11,2025-03-22,Structural Concern,Complete system overhaul,CONTR_001,False
+WO_0002,ASSET_025,2022-06-25,2022-07-25,Pressure Problem,Full system recalibration,CONTR_003,True
+WO_0003,ASSET_034,2023-05-03,2023-05-06,Structural Concern,Full system recalibration,CONTR_001,False
+WO_0004,ASSET_013,2023-02-04,2023-02-13,Temperature Issue,Full system recalibration,CONTR_003,True
+WO_0005,ASSET_050,2023-05-16,2023-06-07,Air Quality,Reset unit,CONTR_003,True
+WO_0006,ASSET_039,2024-11-03,2024-11-29,No Heat,Temporary patch applied,CONTR_002,False
+WO_0007,ASSET_034,2022-11-06,2022-12-05,Vibration,Reset unit,,True
+WO_0008,ASSET_018,2024-07-28,2024-08-02,Out of Service,Reset unit,CONTR_003,True
+WO_0009,ASSET_014,2024-04-08,2024-04-22,Out of Service,Tightened connections,CONTR_005,False
+WO_0010,ASSET_020,2024-05-26,2024-06-22,Vibration,Full system recalibration,CONTR_003,False
+WO_0011,ASSET_049,2023-03-14,2023-04-09,Leak,Complete system overhaul,CONTR_004,False
+WO_0012,ASSET_019,2024-10-29,2024-10-31,Water Quality,Adjusted settings,,True
+WO_0013,ASSET_045,2024-10-27,2024-11-21,Pressure Problem,Temporary patch applied,CONTR_003,True
+WO_0014,ASSET_048,2024-03-14,2024-03-25,Pressure Problem,Full system recalibration,CONTR_001,False
+WO_0015,ASSET_015,2022-09-30,2022-10-24,Out of Service,Cleaned filters,CONTR_001,True
+WO_0016,ASSET_029,2024-01-10,2024-01-31,Temperature Issue,Reset unit,CONTR_004,True
+WO_0017,ASSET_001,2022-11-30,2022-12-05,Structural Concern,Adjusted settings,CONTR_001,False
+WO_0018,ASSET_007,2023-11-05,2023-11-15,Pressure Problem,Adjusted settings,CONTR_003,True
+WO_0019,ASSET_043,2024-01-13,2024-02-11,Structural Concern,Full pipe segment replaced,CONTR_003,True
+WO_0020,ASSET_011,2023-01-20,2023-02-18,Temperature Issue,Temporary patch applied,CONTR_003,True
+WO_0021,ASSET_049,2024-02-18,2024-02-20,Temperature Issue,Temporary patch applied,CONTR_003,False
+WO_0022,ASSET_017,2023-12-20,2024-01-11,Out of Service,Cleared blockage,CONTR_002,False
+WO_0023,ASSET_032,2023-09-13,2023-10-11,Strange Noise,Full system recalibration,CONTR_001,False
+WO_0024,ASSET_031,2025-04-14,2025-05-06,Out of Service,Tightened connections,,True
+WO_0025,ASSET_003,2023-11-11,2023-11-12,Leak,Temporary patch applied,CONTR_003,False
+WO_0026,ASSET_031,2022-07-27,2022-08-19,Leak,Major component replacement,CONTR_005,True
+WO_0027,ASSET_022,2023-07-14,2023-07-15,Pressure Problem,Complete system overhaul,,True
+WO_0028,ASSET_043,2023-01-27,2023-02-16,Leak,Adjusted settings,CONTR_005,True
+WO_0029,ASSET_043,2022-10-27,2022-11-23,Out of Service,Complete system overhaul,,False
+WO_0030,ASSET_043,2022-07-07,2022-08-04,Leak,Complete system overhaul,CONTR_003,False
+WO_0031,ASSET_032,2023-03-18,2023-04-08,Vibration,Replaced compressor,,False
+WO_0032,ASSET_031,2024-04-22,2024-05-06,Pressure Problem,Reset unit,CONTR_002,True
+WO_0033,ASSET_032,2024-03-10,2024-03-24,Temperature Issue,Replaced compressor,CONTR_003,False
+WO_0034,ASSET_027,2023-09-09,2023-09-24,Air Quality,Cleaned filters,,False
+WO_0035,ASSET_048,2023-10-25,2023-11-08,Strange Noise,Tightened connections,CONTR_003,True
+WO_0036,ASSET_031,2022-08-17,2022-09-15,Temperature Issue,Structural reinforcement applied,CONTR_005,True
+WO_0037,ASSET_024,2024-03-31,2024-04-22,Leak,Cleaned filters,CONTR_004,True
+WO_0038,ASSET_018,2022-08-10,2022-08-29,Temperature Issue,Full system recalibration,CONTR_005,False
+WO_0039,ASSET_001,2023-05-16,2023-06-09,Strange Noise,Full system recalibration,CONTR_004,False
+WO_0040,ASSET_017,2024-02-12,2024-02-23,Air Quality,Full system recalibration,CONTR_003,False
+WO_0041,ASSET_020,2022-05-29,2022-06-23,No Heat,Temporary patch applied,,True
+WO_0042,ASSET_036,2024-03-03,2024-03-14,Water Quality,Replaced compressor,CONTR_005,True
+WO_0043,ASSET_046,2024-04-04,2024-04-28,Pressure Problem,Cleared blockage,CONTR_002,True
+WO_0044,ASSET_043,2024-04-29,2024-05-04,Vibration,Structural reinforcement applied,CONTR_004,False
+WO_0045,ASSET_048,2024-10-13,2024-11-05,Structural Concern,Temporary patch applied,CONTR_002,True
+WO_0046,ASSET_027,2024-09-27,2024-10-23,No Heat,Major component replacement,,False
+WO_0047,ASSET_026,2024-01-04,2024-01-06,Leak,Structural reinforcement applied,CONTR_004,False
+WO_0048,ASSET_017,2025-03-30,2025-04-19,Water Quality,Complete system overhaul,CONTR_002,False
+WO_0049,ASSET_018,2024-07-18,2024-07-21,No Heat,Structural reinforcement applied,CONTR_005,False
+WO_0050,ASSET_042,2023-02-19,2023-03-17,Structural Concern,Structural reinforcement applied,CONTR_005,False
+WO_0051,ASSET_028,2024-11-07,2024-11-12,Structural Concern,Full pipe segment replaced,CONTR_005,True
+WO_0052,ASSET_014,2024-05-21,2024-06-11,Strange Noise,Cleaned filters,CONTR_002,True
+WO_0053,ASSET_018,2024-04-11,2024-04-15,Water Quality,Tightened connections,CONTR_003,True
+WO_0054,ASSET_040,2024-07-10,2024-08-04,Pressure Problem,Tightened connections,CONTR_005,True
+WO_0055,ASSET_037,2024-03-22,2024-04-02,Leak,Major component replacement,CONTR_003,False
+WO_0056,ASSET_045,2024-01-26,2024-02-11,No Heat,Full system recalibration,CONTR_005,False
+WO_0057,ASSET_018,2024-03-13,2024-03-25,Pressure Problem,Cleaned filters,CONTR_005,False
+WO_0058,ASSET_010,2022-09-14,2022-09-27,Strange Noise,Structural reinforcement applied,CONTR_004,False
+WO_0059,ASSET_041,2023-05-29,2023-06-04,Water Quality,Reset unit,CONTR_002,False
+WO_0060,ASSET_029,2024-04-08,2024-04-15,Strange Noise,Tightened connections,CONTR_001,False
+WO_0061,ASSET_004,2024-03-28,2024-04-19,No Heat,Complete system overhaul,CONTR_004,False
+WO_0062,ASSET_010,2023-02-10,2023-03-01,Water Quality,Major component replacement,CONTR_003,False
+WO_0063,ASSET_018,2024-12-23,2024-12-24,Vibration,Major component replacement,CONTR_002,False
+WO_0064,ASSET_008,2024-09-04,2024-09-07,Vibration,Replaced compressor,CONTR_001,False
+WO_0065,ASSET_044,2024-12-17,2024-12-18,No Heat,Complete system overhaul,CONTR_004,False
+WO_0066,ASSET_006,2023-05-14,2023-05-28,Strange Noise,Full pipe segment replaced,CONTR_005,False
+WO_0067,ASSET_045,2024-12-11,2024-12-19,Water Quality,Tightened connections,,False
+WO_0068,ASSET_006,2025-03-21,2025-03-30,Structural Concern,Major component replacement,CONTR_004,False
+WO_0069,ASSET_040,2023-03-08,2023-03-25,Out of Service,Temporary patch applied,CONTR_004,True
+WO_0070,ASSET_049,2024-09-30,2024-10-07,No Heat,Cleared blockage,CONTR_001,True
+WO_0071,ASSET_025,2024-08-25,2024-08-26,Out of Service,Adjusted settings,,True
+WO_0072,ASSET_008,2022-09-03,2022-09-19,Out of Service,Replaced compressor,CONTR_001,True
+WO_0073,ASSET_047,2023-07-13,2023-08-10,Temperature Issue,Complete system overhaul,CONTR_003,False
+WO_0074,ASSET_037,2024-05-29,2024-06-17,Structural Concern,Temporary patch applied,,False
+WO_0075,ASSET_035,2022-08-22,2022-09-03,Temperature Issue,Cleared blockage,CONTR_003,True
+WO_0076,ASSET_047,2022-05-29,2022-06-01,Out of Service,Replaced compressor,CONTR_003,False
+WO_0077,ASSET_033,2025-04-29,2025-04-30,Water Quality,Reset unit,CONTR_005,True
+WO_0078,ASSET_022,2024-12-28,2025-01-27,Strange Noise,Full pipe segment replaced,CONTR_001,False
+WO_0079,ASSET_026,2023-09-27,2023-10-10,Leak,Adjusted settings,CONTR_002,True
+WO_0080,ASSET_050,2024-04-29,2024-05-05,Water Quality,Structural reinforcement applied,CONTR_001,False
+WO_0081,ASSET_039,2024-10-04,2024-11-01,Water Quality,Full system recalibration,CONTR_001,True
+WO_0082,ASSET_005,2022-05-28,2022-06-03,Water Quality,Replaced compressor,CONTR_002,False
+WO_0083,ASSET_001,2024-02-13,2024-02-22,Out of Service,Reset unit,CONTR_002,False
+WO_0084,ASSET_046,2025-03-24,2025-03-29,No Heat,Reset unit,CONTR_005,True
+WO_0085,ASSET_023,2024-09-10,2024-09-19,No Heat,Cleared blockage,,False
+WO_0086,ASSET_024,2025-01-31,2025-02-13,Vibration,Tightened connections,,False
+WO_0087,ASSET_027,2024-04-20,2024-05-18,Pressure Problem,Full pipe segment replaced,CONTR_002,False
+WO_0088,ASSET_009,2022-12-22,2022-12-30,Pressure Problem,Adjusted settings,CONTR_004,True
+WO_0089,ASSET_043,2022-10-29,2022-11-02,Out of Service,Major component replacement,CONTR_005,False
+WO_0090,ASSET_005,2024-07-22,2024-08-08,No Heat,Full system recalibration,CONTR_002,False
+WO_0091,ASSET_017,2022-09-23,2022-09-29,Strange Noise,Major component replacement,CONTR_005,False
+WO_0092,ASSET_002,2024-05-28,2024-06-06,Structural Concern,Cleaned filters,,True
+WO_0093,ASSET_003,2023-05-21,2023-06-15,Leak,Adjusted settings,CONTR_005,True
+WO_0094,ASSET_027,2023-06-15,2023-07-03,Pressure Problem,Major component replacement,CONTR_004,False
+WO_0095,ASSET_004,2023-04-14,2023-04-27,Water Quality,Full system recalibration,CONTR_001,False
+WO_0096,ASSET_043,2024-08-06,2024-08-11,Strange Noise,Cleaned filters,CONTR_003,True
+WO_0097,ASSET_003,2023-07-31,2023-08-22,Pressure Problem,Reset unit,,True
+WO_0098,ASSET_023,2025-01-01,2025-01-23,Structural Concern,Cleaned filters,CONTR_001,True
+WO_0099,ASSET_041,2025-04-21,2025-04-22,Water Quality,Adjusted settings,,False
+WO_0100,ASSET_037,2024-11-21,2024-12-02,Temperature Issue,Full pipe segment replaced,,False
+WO_0101,ASSET_021,2024-09-20,2024-10-12,Air Quality,Replaced compressor,CONTR_003,False
+WO_0102,ASSET_018,2024-08-25,2024-09-05,Structural Concern,Temporary patch applied,CONTR_004,False
+WO_0103,ASSET_043,2024-01-31,2024-02-10,Air Quality,Replaced compressor,CONTR_002,False
+WO_0104,ASSET_037,2025-01-23,2025-02-16,Water Quality,Cleared blockage,CONTR_003,True
+WO_0105,ASSET_032,2024-08-30,2024-09-23,Strange Noise,Full pipe segment replaced,CONTR_004,False
+WO_0106,ASSET_005,2024-09-14,2024-09-21,Water Quality,Tightened connections,CONTR_001,False
+WO_0107,ASSET_046,2024-02-06,2024-03-06,Temperature Issue,Temporary patch applied,CONTR_003,True
+WO_0108,ASSET_039,2022-10-25,2022-11-17,Temperature Issue,Full pipe segment replaced,CONTR_004,False
+WO_0109,ASSET_048,2024-07-30,2024-08-25,Structural Concern,Temporary patch applied,CONTR_005,False
+WO_0110,ASSET_038,2022-11-11,2022-12-11,Water Quality,Major component replacement,CONTR_003,False
+WO_0111,ASSET_032,2024-08-05,2024-08-20,Pressure Problem,Tightened connections,,False
+WO_0112,ASSET_001,2022-12-04,2022-12-17,Out of Service,Replaced compressor,CONTR_001,False
+WO_0113,ASSET_032,2023-12-29,2024-01-07,Temperature Issue,Structural reinforcement applied,CONTR_002,False
+WO_0114,ASSET_016,2023-07-21,2023-07-28,Pressure Problem,Full pipe segment replaced,CONTR_002,False
+WO_0115,ASSET_003,2022-08-02,2022-08-28,Leak,Adjusted settings,CONTR_001,True
+WO_0116,ASSET_038,2025-04-24,2025-04-27,Out of Service,Full pipe segment replaced,CONTR_003,True
+WO_0117,ASSET_019,2025-01-16,2025-01-18,Out of Service,Tightened connections,CONTR_004,True
+WO_0118,ASSET_028,2025-01-19,2025-02-06,Water Quality,Tightened connections,CONTR_004,True
+WO_0119,ASSET_027,2024-01-04,2024-01-22,No Heat,Structural reinforcement applied,,False
+WO_0120,ASSET_011,2024-06-01,2024-06-14,Vibration,Replaced compressor,CONTR_003,False
+WO_0121,ASSET_040,2024-12-01,2024-12-20,Vibration,Replaced compressor,CONTR_003,False
+WO_0122,ASSET_012,2023-01-18,2023-02-06,Out of Service,Temporary patch applied,,False
+WO_0123,ASSET_002,2024-06-15,2024-06-25,Structural Concern,Reset unit,CONTR_003,False
+WO_0124,ASSET_030,2023-04-09,2023-04-28,Vibration,Major component replacement,,False
+WO_0125,ASSET_041,2023-07-20,2023-08-17,Pressure Problem,Replaced compressor,CONTR_001,False
+WO_0126,ASSET_037,2025-01-09,2025-02-07,Temperature Issue,Cleared blockage,CONTR_001,False
+WO_0127,ASSET_018,2023-08-12,2023-08-26,Water Quality,Reset unit,,True
+WO_0128,ASSET_039,2024-02-10,2024-02-14,No Heat,Major component replacement,CONTR_003,False
+WO_0129,ASSET_002,2022-12-18,2022-12-24,Leak,Reset unit,CONTR_004,True
+WO_0130,ASSET_048,2024-05-31,2024-06-12,No Heat,Adjusted settings,CONTR_005,False
+WO_0131,ASSET_019,2024-10-03,2024-10-16,Pressure Problem,Structural reinforcement applied,CONTR_003,True
+WO_0132,ASSET_049,2024-04-02,2024-05-02,Vibration,Complete system overhaul,CONTR_004,False
+WO_0133,ASSET_004,2022-06-05,2022-06-23,Temperature Issue,Cleaned filters,CONTR_004,True
+WO_0134,ASSET_009,2023-08-01,2023-08-30,Structural Concern,Cleaned filters,CONTR_005,False
+WO_0135,ASSET_022,2024-12-03,2024-12-08,Strange Noise,Tightened connections,CONTR_004,True
+WO_0136,ASSET_008,2024-03-27,2024-04-12,Out of Service,Full system recalibration,CONTR_005,False
+WO_0137,ASSET_013,2024-10-07,2024-10-28,Strange Noise,Temporary patch applied,CONTR_005,True
+WO_0138,ASSET_049,2023-08-01,2023-08-08,Out of Service,Replaced compressor,CONTR_003,True
+WO_0139,ASSET_043,2022-06-22,2022-06-26,Leak,Tightened connections,CONTR_005,False
+WO_0140,ASSET_023,2023-03-03,2023-03-22,Vibration,Full pipe segment replaced,CONTR_002,False
+WO_0141,ASSET_043,2025-01-15,2025-01-26,Pressure Problem,Full system recalibration,CONTR_004,False
+WO_0142,ASSET_040,2023-12-17,2024-01-11,Water Quality,Complete system overhaul,CONTR_005,False
+WO_0143,ASSET_022,2023-06-09,2023-06-28,No Heat,Tightened connections,CONTR_003,True
+WO_0144,ASSET_046,2024-02-13,2024-03-06,Leak,Full pipe segment replaced,CONTR_005,True
+WO_0145,ASSET_008,2025-03-02,2025-03-12,No Heat,Structural reinforcement applied,,False
+WO_0146,ASSET_020,2022-09-16,2022-10-13,Out of Service,Cleared blockage,CONTR_003,False
+WO_0147,ASSET_005,2024-01-11,2024-01-21,Air Quality,Full system recalibration,CONTR_004,False
+WO_0148,ASSET_020,2025-04-18,2025-04-20,Temperature Issue,Replaced compressor,CONTR_002,False
+WO_0149,ASSET_034,2024-12-25,2025-01-17,Structural Concern,Complete system overhaul,CONTR_005,False
+WO_0150,ASSET_040,2022-07-14,2022-07-28,Out of Service,Complete system overhaul,CONTR_003,False
+WO_0151,ASSET_039,2024-12-20,2024-12-23,Temperature Issue,Replaced compressor,,False
+WO_0152,ASSET_040,2024-12-15,2025-01-02,Air Quality,Replaced compressor,,False
+WO_0153,ASSET_044,2023-09-13,2023-09-27,Temperature Issue,Cleaned filters,,False
+WO_0154,ASSET_020,2023-09-01,2023-09-19,Temperature Issue,Tightened connections,CONTR_001,False
+WO_0155,ASSET_014,2023-09-10,2023-10-02,Out of Service,Cleaned filters,CONTR_003,True
+WO_0156,ASSET_039,2023-08-16,2023-09-13,Structural Concern,Major component replacement,CONTR_005,True
+WO_0157,ASSET_007,2024-03-01,2024-03-29,Pressure Problem,Structural reinforcement applied,CONTR_001,False
+WO_0158,ASSET_010,2025-02-25,2025-03-24,Temperature Issue,Full system recalibration,CONTR_003,False
+WO_0159,ASSET_022,2024-09-08,2024-09-20,Strange Noise,Full pipe segment replaced,CONTR_003,True
+WO_0160,ASSET_002,2025-05-22,2025-06-02,Strange Noise,Cleared blockage,CONTR_002,True
+WO_0161,ASSET_015,2024-12-12,2024-12-21,Pressure Problem,Major component replacement,CONTR_001,False
+WO_0162,ASSET_050,2023-11-02,2023-11-16,Structural Concern,Tightened connections,CONTR_002,False
+WO_0163,ASSET_033,2023-04-23,2023-05-01,Temperature Issue,Reset unit,CONTR_002,True
+WO_0164,ASSET_018,2023-02-08,2023-02-18,Strange Noise,Structural reinforcement applied,CONTR_001,False
+WO_0165,ASSET_004,2024-08-05,2024-08-12,Strange Noise,Structural reinforcement applied,CONTR_001,False
+WO_0166,ASSET_010,2025-02-20,2025-03-22,No Heat,Cleared blockage,CONTR_002,True
+WO_0167,ASSET_025,2022-11-18,2022-12-08,Vibration,Cleaned filters,CONTR_004,False
+WO_0168,ASSET_030,2022-07-17,2022-07-18,Vibration,Complete system overhaul,CONTR_001,False
+WO_0169,ASSET_042,2022-09-15,2022-10-05,Out of Service,Complete system overhaul,CONTR_005,False
+WO_0170,ASSET_034,2024-02-10,2024-02-11,Temperature Issue,Tightened connections,CONTR_003,True
+WO_0171,ASSET_037,2022-08-25,2022-09-24,Vibration,Tightened connections,CONTR_004,True
+WO_0172,ASSET_038,2023-06-07,2023-06-09,Air Quality,Cleared blockage,CONTR_005,True
+WO_0173,ASSET_014,2023-11-02,2023-11-08,Out of Service,Major component replacement,CONTR_001,False
+WO_0174,ASSET_019,2022-11-07,2022-11-28,Structural Concern,Tightened connections,CONTR_004,True
+WO_0175,ASSET_018,2023-11-17,2023-11-21,Pressure Problem,Tightened connections,CONTR_001,False
+WO_0176,ASSET_036,2023-12-28,2024-01-10,No Heat,Full system recalibration,CONTR_003,False
+WO_0177,ASSET_034,2024-12-30,2025-01-02,Out of Service,Structural reinforcement applied,CONTR_001,True
+WO_0178,ASSET_033,2023-11-01,2023-11-30,Water Quality,Replaced compressor,CONTR_004,True
+WO_0179,ASSET_048,2025-03-19,2025-03-29,Structural Concern,Temporary patch applied,,True
+WO_0180,ASSET_048,2025-04-10,2025-04-28,Out of Service,Tightened connections,CONTR_003,False
+WO_0181,ASSET_042,2025-01-16,2025-02-14,Leak,Reset unit,CONTR_004,False
+WO_0182,ASSET_015,2023-07-09,2023-07-21,No Heat,Complete system overhaul,CONTR_002,False
+WO_0183,ASSET_045,2023-12-26,2024-01-24,No Heat,Full system recalibration,,False
+WO_0184,ASSET_005,2022-09-17,2022-09-20,Strange Noise,Replaced compressor,CONTR_004,False
+WO_0185,ASSET_006,2022-06-23,2022-07-21,Pressure Problem,Cleaned filters,CONTR_003,True
+WO_0186,ASSET_012,2024-04-13,2024-05-06,Strange Noise,Temporary patch applied,CONTR_002,False
+WO_0187,ASSET_010,2023-12-21,2024-01-01,Temperature Issue,Structural reinforcement applied,CONTR_002,False
+WO_0188,ASSET_006,2023-04-18,2023-05-12,Leak,Replaced compressor,CONTR_004,False
+WO_0189,ASSET_048,2025-03-11,2025-04-05,No Heat,Tightened connections,CONTR_001,True
+WO_0190,ASSET_035,2024-08-18,2024-09-11,Water Quality,Full pipe segment replaced,CONTR_005,False
+WO_0191,ASSET_050,2022-07-23,2022-08-17,Temperature Issue,Replaced compressor,CONTR_002,False
+WO_0192,ASSET_026,2023-03-18,2023-04-16,Water Quality,Replaced compressor,CONTR_004,True
+WO_0193,ASSET_009,2022-08-17,2022-09-13,Leak,Tightened connections,,True
+WO_0194,ASSET_040,2025-02-01,2025-02-15,Structural Concern,Cleaned filters,,True
+WO_0195,ASSET_005,2024-09-06,2024-09-11,Strange Noise,Complete system overhaul,,False
+WO_0196,ASSET_010,2025-04-16,2025-04-29,Structural Concern,Tightened connections,CONTR_005,True
+WO_0197,ASSET_026,2023-06-16,2023-06-25,Leak,Tightened connections,,True
+WO_0198,ASSET_027,2024-10-24,2024-11-08,Water Quality,Complete system overhaul,CONTR_002,False
+WO_0199,ASSET_028,2023-12-18,2024-01-06,Out of Service,Full pipe segment replaced,CONTR_005,False
+WO_0200,ASSET_011,2024-02-12,2024-03-12,Structural Concern,Tightened connections,,False
+WO_0201,ASSET_015,2023-03-10,2023-03-18,Leak,Major component replacement,CONTR_001,False
+WO_0202,ASSET_038,2024-09-22,2024-10-15,Water Quality,Major component replacement,CONTR_001,False
+WO_0203,ASSET_031,2023-01-02,2023-01-29,Air Quality,Adjusted settings,CONTR_004,True
+WO_0204,ASSET_027,2024-06-18,2024-06-27,Structural Concern,Major component replacement,,False
+WO_0205,ASSET_045,2024-01-21,2024-02-03,Water Quality,Cleaned filters,CONTR_004,True
+WO_0206,ASSET_021,2022-09-23,2022-10-06,Air Quality,Major component replacement,CONTR_003,False
+WO_0207,ASSET_017,2024-09-23,2024-10-08,Leak,Major component replacement,CONTR_005,False
+WO_0208,ASSET_042,2023-10-11,2023-10-12,Out of Service,Full pipe segment replaced,CONTR_002,True
+WO_0209,ASSET_043,2023-06-26,2023-06-30,Leak,Major component replacement,,False
+WO_0210,ASSET_047,2023-09-25,2023-09-29,Vibration,Full system recalibration,,False
+WO_0211,ASSET_011,2024-05-30,2024-06-11,No Heat,Structural reinforcement applied,CONTR_001,False
+WO_0212,ASSET_049,2023-01-02,2023-01-10,Out of Service,Complete system overhaul,CONTR_001,False
+WO_0213,ASSET_002,2023-10-02,2023-10-09,Water Quality,Cleared blockage,,False
+WO_0214,ASSET_035,2024-06-07,2024-07-05,Leak,Structural reinforcement applied,CONTR_005,False
+WO_0215,ASSET_024,2024-04-30,2024-05-01,Leak,Tightened connections,CONTR_003,True
+WO_0216,ASSET_044,2023-12-20,2023-12-28,Water Quality,Structural reinforcement applied,CONTR_002,False
+WO_0217,ASSET_048,2024-07-03,2024-07-07,Air Quality,Complete system overhaul,CONTR_005,False
+WO_0218,ASSET_037,2024-11-16,2024-11-24,No Heat,Structural reinforcement applied,CONTR_002,True
+WO_0219,ASSET_045,2025-03-03,2025-04-01,Leak,Major component replacement,,False
+WO_0220,ASSET_016,2024-04-06,2024-05-05,Air Quality,Cleaned filters,CONTR_005,True
+WO_0221,ASSET_041,2024-12-09,2024-12-22,Air Quality,Major component replacement,CONTR_001,False
+WO_0222,ASSET_030,2024-05-21,2024-06-01,Vibration,Reset unit,CONTR_001,False
+WO_0223,ASSET_007,2024-03-15,2024-03-31,Leak,Reset unit,CONTR_001,True
+WO_0224,ASSET_021,2023-07-08,2023-07-20,Strange Noise,Replaced compressor,,False
+WO_0225,ASSET_024,2022-07-16,2022-07-17,Strange Noise,Major component replacement,CONTR_005,True
+WO_0226,ASSET_018,2022-06-11,2022-06-26,Out of Service,Cleared blockage,CONTR_003,True
+WO_0227,ASSET_039,2024-07-28,2024-08-09,Air Quality,Reset unit,CONTR_002,False
+WO_0228,ASSET_005,2024-07-30,2024-08-01,Out of Service,Full system recalibration,CONTR_002,False
+WO_0229,ASSET_044,2023-01-26,2023-02-23,No Heat,Full pipe segment replaced,CONTR_004,True
+WO_0230,ASSET_033,2023-07-11,2023-07-31,Out of Service,Temporary patch applied,CONTR_004,True
+WO_0231,ASSET_017,2024-04-10,2024-05-08,Water Quality,Structural reinforcement applied,,False
+WO_0232,ASSET_003,2024-05-09,2024-06-02,No Heat,Reset unit,CONTR_001,False
+WO_0233,ASSET_043,2024-04-10,2024-05-07,No Heat,Reset unit,CONTR_005,True
+WO_0234,ASSET_012,2024-04-27,2024-05-12,Strange Noise,Reset unit,,True
+WO_0235,ASSET_032,2024-03-09,2024-03-21,Out of Service,Major component replacement,CONTR_005,False
+WO_0236,ASSET_004,2023-12-25,2024-01-08,Structural Concern,Full system recalibration,,False
+WO_0237,ASSET_032,2024-11-11,2024-12-06,Strange Noise,Full pipe segment replaced,CONTR_002,False
+WO_0238,ASSET_044,2023-03-26,2023-04-25,Structural Concern,Major component replacement,,False
+WO_0239,ASSET_012,2024-02-06,2024-02-16,Water Quality,Temporary patch applied,CONTR_003,True
+WO_0240,ASSET_027,2022-07-10,2022-07-25,Water Quality,Complete system overhaul,CONTR_003,False
+WO_0241,ASSET_016,2024-10-27,2024-11-12,Temperature Issue,Cleaned filters,CONTR_005,True
+WO_0242,ASSET_042,2022-12-25,2023-01-02,Air Quality,Major component replacement,,False
+WO_0243,ASSET_048,2024-07-06,2024-07-11,Strange Noise,Temporary patch applied,CONTR_003,True
+WO_0244,ASSET_029,2023-07-16,2023-07-27,Out of Service,Temporary patch applied,,True
+WO_0245,ASSET_041,2024-12-23,2024-12-29,Pressure Problem,Cleared blockage,CONTR_002,False
+WO_0246,ASSET_013,2023-09-24,2023-10-01,Pressure Problem,Reset unit,,False
+WO_0247,ASSET_010,2024-09-05,2024-09-10,Structural Concern,Temporary patch applied,CONTR_005,True
+WO_0248,ASSET_006,2024-11-12,2024-12-09,No Heat,Structural reinforcement applied,CONTR_003,False
+WO_0249,ASSET_003,2024-03-20,2024-04-01,Temperature Issue,Cleaned filters,CONTR_001,True
+WO_0250,ASSET_015,2025-05-14,2025-06-09,No Heat,Major component replacement,CONTR_003,False
+WO_0251,ASSET_020,2023-02-27,2023-03-10,No Heat,Complete system overhaul,CONTR_001,False
+WO_0252,ASSET_010,2023-07-08,2023-07-17,Air Quality,Reset unit,CONTR_001,True
+WO_0253,ASSET_009,2024-09-08,2024-09-27,Out of Service,Adjusted settings,,True
+WO_0254,ASSET_016,2024-04-19,2024-05-03,Air Quality,Major component replacement,CONTR_002,False
+WO_0255,ASSET_024,2022-12-16,2023-01-15,Pressure Problem,Full system recalibration,CONTR_005,True
+WO_0256,ASSET_020,2024-03-08,2024-03-24,Structural Concern,Cleared blockage,CONTR_002,True
+WO_0257,ASSET_034,2025-03-20,2025-04-01,Structural Concern,Replaced compressor,CONTR_005,False
+WO_0258,ASSET_005,2023-08-31,2023-09-24,Temperature Issue,Full pipe segment replaced,CONTR_004,True
+WO_0259,ASSET_042,2024-06-26,2024-07-06,Water Quality,Major component replacement,CONTR_002,True
+WO_0260,ASSET_020,2024-01-09,2024-02-01,Strange Noise,Adjusted settings,CONTR_001,True
+WO_0261,ASSET_044,2024-07-31,2024-08-07,No Heat,Complete system overhaul,,False
+WO_0262,ASSET_050,2023-01-30,2023-02-13,Strange Noise,Replaced compressor,CONTR_004,False
+WO_0263,ASSET_005,2024-01-29,2024-02-23,Strange Noise,Major component replacement,CONTR_002,False
+WO_0264,ASSET_001,2025-03-30,2025-04-08,Leak,Tightened connections,CONTR_002,True
+WO_0265,ASSET_008,2025-03-23,2025-04-20,Strange Noise,Major component replacement,,False
+WO_0266,ASSET_027,2023-04-02,2023-04-04,Leak,Reset unit,CONTR_001,True
+WO_0267,ASSET_006,2022-08-31,2022-09-16,Water Quality,Replaced compressor,CONTR_005,False
+WO_0268,ASSET_027,2023-09-07,2023-09-16,Leak,Adjusted settings,CONTR_002,True
+WO_0269,ASSET_024,2022-09-29,2022-10-01,Out of Service,Cleaned filters,CONTR_005,True
+WO_0270,ASSET_004,2023-04-03,2023-04-28,Leak,Replaced compressor,,False
+WO_0271,ASSET_010,2023-04-29,2023-05-23,Out of Service,Cleaned filters,,False
+WO_0272,ASSET_010,2024-09-16,2024-10-09,Vibration,Replaced compressor,CONTR_003,True
+WO_0273,ASSET_027,2022-12-06,2022-12-24,Vibration,Replaced compressor,CONTR_004,True
+WO_0274,ASSET_049,2023-02-16,2023-03-15,Air Quality,Reset unit,,True
+WO_0275,ASSET_031,2024-01-22,2024-01-24,Out of Service,Adjusted settings,CONTR_003,True
+WO_0276,ASSET_004,2025-02-11,2025-02-12,Out of Service,Tightened connections,CONTR_001,False
+WO_0277,ASSET_040,2024-03-26,2024-04-02,Structural Concern,Full pipe segment replaced,CONTR_005,False
+WO_0278,ASSET_032,2024-01-07,2024-01-11,Out of Service,Adjusted settings,CONTR_005,False
+WO_0279,ASSET_002,2023-02-28,2023-03-09,Water Quality,Major component replacement,,False
+WO_0280,ASSET_031,2023-12-15,2023-12-18,Air Quality,Reset unit,CONTR_002,True
+WO_0281,ASSET_021,2024-01-25,2024-01-29,No Heat,Cleared blockage,,True
+WO_0282,ASSET_019,2023-11-18,2023-12-18,Leak,Reset unit,CONTR_004,False
+WO_0283,ASSET_020,2022-12-11,2022-12-15,Out of Service,Cleared blockage,CONTR_001,True
+WO_0284,ASSET_043,2024-09-14,2024-09-29,Temperature Issue,Reset unit,,False
+WO_0285,ASSET_025,2022-12-03,2022-12-14,Strange Noise,Structural reinforcement applied,CONTR_004,False
+WO_0286,ASSET_009,2024-04-24,2024-05-09,Out of Service,Full pipe segment replaced,CONTR_004,True
+WO_0287,ASSET_027,2022-10-02,2022-10-28,Air Quality,Cleaned filters,CONTR_005,True
+WO_0288,ASSET_015,2022-07-18,2022-07-25,Air Quality,Cleared blockage,CONTR_001,False
+WO_0289,ASSET_024,2024-06-07,2024-07-01,Temperature Issue,Reset unit,CONTR_002,False
+WO_0290,ASSET_021,2023-08-28,2023-09-08,Strange Noise,Adjusted settings,CONTR_002,False
+WO_0291,ASSET_002,2023-12-16,2023-12-27,Strange Noise,Full pipe segment replaced,CONTR_005,True
+WO_0292,ASSET_013,2024-10-26,2024-11-01,Temperature Issue,Full pipe segment replaced,CONTR_005,False
+WO_0293,ASSET_009,2022-12-15,2023-01-09,Out of Service,Replaced compressor,CONTR_002,False
+WO_0294,ASSET_012,2022-12-15,2023-01-10,No Heat,Adjusted settings,CONTR_004,True
+WO_0295,ASSET_036,2024-05-30,2024-06-08,Vibration,Major component replacement,CONTR_003,False
+WO_0296,ASSET_017,2024-05-02,2024-05-09,Leak,Complete system overhaul,CONTR_003,False
+WO_0297,ASSET_030,2024-08-22,2024-09-10,Water Quality,Complete system overhaul,,False
+WO_0298,ASSET_014,2025-04-14,2025-04-20,Structural Concern,Tightened connections,CONTR_004,True
+WO_0299,ASSET_046,2025-01-29,2025-02-22,Leak,Adjusted settings,CONTR_002,True
+WO_0300,ASSET_020,2024-04-26,2024-05-12,Vibration,Replaced compressor,CONTR_001,False
+WO_0301,ASSET_040,2022-07-21,2022-07-25,Strange Noise,Tightened connections,CONTR_002,True
+WO_0302,ASSET_027,2025-03-05,2025-03-09,Out of Service,Adjusted settings,,True
+WO_0303,ASSET_043,2022-09-21,2022-10-01,Out of Service,Tightened connections,CONTR_005,True
+WO_0304,ASSET_008,2022-08-23,2022-09-22,Water Quality,Adjusted settings,CONTR_002,True
+WO_0305,ASSET_047,2022-08-24,2022-08-29,Pressure Problem,Adjusted settings,,True
+WO_0306,ASSET_027,2023-11-27,2023-12-23,Strange Noise,Structural reinforcement applied,CONTR_004,False
+WO_0307,ASSET_026,2023-02-06,2023-02-07,Temperature Issue,Cleaned filters,CONTR_005,False
+WO_0308,ASSET_048,2024-10-15,2024-10-27,Air Quality,Reset unit,CONTR_004,False
+WO_0309,ASSET_023,2022-10-18,2022-11-04,Structural Concern,Replaced compressor,,False
+WO_0310,ASSET_039,2023-06-25,2023-07-15,Vibration,Cleared blockage,CONTR_004,True
+WO_0311,ASSET_038,2025-02-26,2025-03-09,Temperature Issue,Full pipe segment replaced,CONTR_002,False
+WO_0312,ASSET_037,2023-08-29,2023-09-17,Strange Noise,Adjusted settings,CONTR_005,True
+WO_0313,ASSET_043,2023-05-07,2023-05-11,Pressure Problem,Reset unit,,True
+WO_0314,ASSET_032,2024-05-18,2024-06-17,Strange Noise,Complete system overhaul,CONTR_003,True
+WO_0315,ASSET_015,2023-03-18,2023-04-12,Water Quality,Replaced compressor,CONTR_003,False
+WO_0316,ASSET_030,2023-11-19,2023-12-16,Out of Service,Adjusted settings,CONTR_005,True
+WO_0317,ASSET_036,2022-10-25,2022-11-21,Strange Noise,Replaced compressor,CONTR_005,False
+WO_0318,ASSET_025,2024-12-12,2024-12-19,Structural Concern,Adjusted settings,,True
+WO_0319,ASSET_011,2023-12-28,2024-01-08,Leak,Full pipe segment replaced,CONTR_002,False
+WO_0320,ASSET_004,2024-05-19,2024-06-13,Leak,Replaced compressor,CONTR_003,True
+WO_0321,ASSET_050,2023-08-30,2023-09-01,No Heat,Complete system overhaul,CONTR_003,False
+WO_0322,ASSET_034,2022-11-01,2022-11-15,Strange Noise,Full pipe segment replaced,CONTR_002,False
+WO_0323,ASSET_035,2023-08-26,2023-09-09,Leak,Complete system overhaul,CONTR_002,False
+WO_0324,ASSET_037,2022-07-08,2022-07-26,No Heat,Full pipe segment replaced,CONTR_004,True
+WO_0325,ASSET_038,2024-08-22,2024-09-02,Strange Noise,Replaced compressor,CONTR_005,False
+WO_0326,ASSET_023,2023-01-20,2023-01-22,Air Quality,Adjusted settings,CONTR_002,False
+WO_0327,ASSET_001,2024-11-20,2024-12-02,Air Quality,Structural reinforcement applied,CONTR_004,False
+WO_0328,ASSET_015,2025-05-17,2025-05-24,Strange Noise,Structural reinforcement applied,CONTR_002,False
+WO_0329,ASSET_038,2024-10-04,2024-10-15,Leak,Temporary patch applied,CONTR_004,True
+WO_0330,ASSET_012,2024-03-23,2024-04-20,Temperature Issue,Structural reinforcement applied,CONTR_004,False
+WO_0331,ASSET_033,2023-10-11,2023-10-12,Pressure Problem,Adjusted settings,CONTR_004,True
+WO_0332,ASSET_011,2022-10-26,2022-11-07,Structural Concern,Full system recalibration,CONTR_005,False
+WO_0333,ASSET_035,2023-01-06,2023-01-10,Water Quality,Temporary patch applied,CONTR_002,True
+WO_0334,ASSET_034,2022-07-24,2022-07-29,No Heat,Full pipe segment replaced,CONTR_005,False
+WO_0335,ASSET_027,2024-04-05,2024-04-17,No Heat,Adjusted settings,CONTR_004,True
+WO_0336,ASSET_036,2023-09-08,2023-09-13,Leak,Reset unit,CONTR_004,True
+WO_0337,ASSET_033,2025-01-14,2025-01-20,Temperature Issue,Replaced compressor,CONTR_005,True
+WO_0338,ASSET_016,2023-03-04,2023-03-27,Air Quality,Major component replacement,,False
+WO_0339,ASSET_042,2023-03-13,2023-04-02,No Heat,Major component replacement,CONTR_004,False
+WO_0340,ASSET_034,2023-10-05,2023-10-23,Out of Service,Tightened connections,CONTR_001,True
+WO_0341,ASSET_047,2022-11-03,2022-11-19,Out of Service,Cleared blockage,CONTR_002,True
+WO_0342,ASSET_008,2025-05-18,2025-05-19,Structural Concern,Full system recalibration,,False
+WO_0343,ASSET_032,2023-07-14,2023-07-21,Leak,Complete system overhaul,CONTR_002,False
+WO_0344,ASSET_038,2022-07-03,2022-07-08,No Heat,Adjusted settings,,False
+WO_0345,ASSET_007,2024-05-11,2024-05-17,Water Quality,Full pipe segment replaced,CONTR_003,True
+WO_0346,ASSET_016,2024-06-08,2024-07-07,Water Quality,Adjusted settings,CONTR_005,False
+WO_0347,ASSET_005,2022-12-04,2022-12-22,Structural Concern,Structural reinforcement applied,CONTR_005,True
+WO_0348,ASSET_039,2023-11-13,2023-11-20,Pressure Problem,Cleared blockage,CONTR_001,True
+WO_0349,ASSET_045,2022-09-03,2022-09-15,Vibration,Complete system overhaul,CONTR_003,False
+WO_0350,ASSET_011,2024-12-16,2024-12-26,Out of Service,Complete system overhaul,CONTR_005,False
+WO_0351,ASSET_023,2024-05-20,2024-06-19,Structural Concern,Temporary patch applied,CONTR_001,True
+WO_0352,ASSET_042,2022-06-29,2022-06-30,Vibration,Temporary patch applied,CONTR_001,False
+WO_0353,ASSET_021,2022-10-02,2022-10-13,Water Quality,Temporary patch applied,CONTR_001,True
+WO_0354,ASSET_009,2024-06-01,2024-06-15,Out of Service,Structural reinforcement applied,,False
+WO_0355,ASSET_025,2024-09-24,2024-10-13,Temperature Issue,Full system recalibration,,False
+WO_0356,ASSET_026,2023-06-16,2023-06-24,Leak,Replaced compressor,,False
+WO_0357,ASSET_037,2025-04-24,2025-05-08,Strange Noise,Reset unit,CONTR_005,True
+WO_0358,ASSET_032,2022-09-01,2022-09-23,Vibration,Tightened connections,,True
+WO_0359,ASSET_016,2025-01-14,2025-01-17,Vibration,Full system recalibration,,False
+WO_0360,ASSET_040,2024-06-17,2024-07-01,Strange Noise,Cleared blockage,CONTR_003,True
+WO_0361,ASSET_050,2023-04-08,2023-05-08,Water Quality,Reset unit,CONTR_003,True
+WO_0362,ASSET_025,2022-11-04,2022-11-26,Temperature Issue,Reset unit,CONTR_001,True
+WO_0363,ASSET_008,2023-08-11,2023-09-07,Out of Service,Full system recalibration,,False
+WO_0364,ASSET_025,2025-05-02,2025-05-25,Temperature Issue,Temporary patch applied,CONTR_001,True
+WO_0365,ASSET_028,2024-07-05,2024-07-06,Out of Service,Adjusted settings,CONTR_001,True
+WO_0366,ASSET_032,2023-07-21,2023-07-31,Structural Concern,Cleared blockage,CONTR_003,True
+WO_0367,ASSET_037,2023-09-05,2023-10-05,Strange Noise,Full system recalibration,CONTR_005,False
+WO_0368,ASSET_048,2022-11-26,2022-11-29,Structural Concern,Full system recalibration,CONTR_004,False
+WO_0369,ASSET_020,2024-11-21,2024-12-19,No Heat,Temporary patch applied,CONTR_003,True
+WO_0370,ASSET_047,2025-01-19,2025-02-05,Leak,Full pipe segment replaced,CONTR_002,False
+WO_0371,ASSET_008,2025-05-11,2025-05-20,Out of Service,Full pipe segment replaced,CONTR_004,False
+WO_0372,ASSET_028,2024-04-26,2024-05-03,No Heat,Adjusted settings,CONTR_005,True
+WO_0373,ASSET_026,2024-10-28,2024-11-22,Water Quality,Complete system overhaul,CONTR_001,False
+WO_0374,ASSET_029,2024-01-28,2024-01-29,Leak,Cleaned filters,CONTR_004,True
+WO_0375,ASSET_050,2023-12-12,2024-01-04,Vibration,Cleared blockage,,False
+WO_0376,ASSET_044,2022-11-24,2022-12-17,Out of Service,Reset unit,CONTR_001,True
+WO_0377,ASSET_032,2023-01-14,2023-02-09,Vibration,Cleared blockage,CONTR_003,False
+WO_0378,ASSET_017,2024-03-14,2024-04-13,Out of Service,Temporary patch applied,,False
+WO_0379,ASSET_005,2022-06-03,2022-06-19,Strange Noise,Adjusted settings,CONTR_003,True
+WO_0380,ASSET_034,2023-05-16,2023-06-08,No Heat,Adjusted settings,CONTR_002,True
+WO_0381,ASSET_019,2025-03-18,2025-03-31,No Heat,Full pipe segment replaced,CONTR_002,False
+WO_0382,ASSET_018,2025-03-31,2025-04-14,Vibration,Full pipe segment replaced,CONTR_005,False
+WO_0383,ASSET_023,2025-02-26,2025-03-08,Vibration,Major component replacement,CONTR_005,False
+WO_0384,ASSET_008,2023-12-03,2023-12-31,Out of Service,Complete system overhaul,CONTR_005,True
+WO_0385,ASSET_049,2023-04-17,2023-05-06,No Heat,Tightened connections,CONTR_001,False
+WO_0386,ASSET_034,2024-02-28,2024-03-02,Strange Noise,Major component replacement,,False
+WO_0387,ASSET_010,2024-11-02,2024-11-04,Leak,Full pipe segment replaced,CONTR_004,True
+WO_0388,ASSET_010,2023-09-19,2023-09-20,Structural Concern,Reset unit,CONTR_001,True
+WO_0389,ASSET_005,2023-02-19,2023-03-06,Pressure Problem,Replaced compressor,CONTR_002,True
+WO_0390,ASSET_008,2022-12-18,2022-12-28,Water Quality,Full system recalibration,,False
+WO_0391,ASSET_010,2023-06-14,2023-06-16,Structural Concern,Temporary patch applied,CONTR_002,True
+WO_0392,ASSET_037,2024-04-06,2024-05-02,Temperature Issue,Cleared blockage,CONTR_001,True
+WO_0393,ASSET_048,2022-09-28,2022-09-30,Strange Noise,Replaced compressor,CONTR_001,False
+WO_0394,ASSET_042,2023-11-23,2023-12-21,Leak,Complete system overhaul,,False
+WO_0395,ASSET_021,2023-09-11,2023-09-13,Air Quality,Complete system overhaul,CONTR_001,False
+WO_0396,ASSET_035,2024-10-25,2024-10-26,Leak,Full pipe segment replaced,,False
+WO_0397,ASSET_050,2024-02-03,2024-02-26,Strange Noise,Tightened connections,CONTR_003,True
+WO_0398,ASSET_008,2024-06-06,2024-06-14,Structural Concern,Tightened connections,CONTR_005,True
+WO_0399,ASSET_048,2024-01-03,2024-01-06,Structural Concern,Major component replacement,CONTR_001,False
+WO_0400,ASSET_013,2024-05-29,2024-06-26,No Heat,Cleaned filters,CONTR_002,True
+WO_0401,ASSET_031,2024-06-19,2024-06-23,No Heat,Full pipe segment replaced,CONTR_005,False
+WO_0402,ASSET_019,2022-10-15,2022-10-24,Structural Concern,Reset unit,CONTR_003,True
+WO_0403,ASSET_016,2023-01-16,2023-02-03,No Heat,Temporary patch applied,CONTR_002,True
+WO_0404,ASSET_031,2023-01-27,2023-01-28,Temperature Issue,Temporary patch applied,CONTR_001,False
+WO_0405,ASSET_021,2023-07-24,2023-08-14,Air Quality,Reset unit,CONTR_002,False
+WO_0406,ASSET_047,2024-01-29,2024-02-22,No Heat,Major component replacement,CONTR_001,False
+WO_0407,ASSET_024,2025-02-28,2025-03-28,Air Quality,Reset unit,CONTR_001,True
+WO_0408,ASSET_037,2022-11-07,2022-11-12,Leak,Temporary patch applied,CONTR_002,True
+WO_0409,ASSET_017,2022-11-30,2022-12-10,Strange Noise,Full pipe segment replaced,CONTR_003,False
+WO_0410,ASSET_042,2024-12-17,2024-12-28,Out of Service,Structural reinforcement applied,CONTR_005,True
+WO_0411,ASSET_030,2023-08-22,2023-09-03,Temperature Issue,Cleaned filters,CONTR_004,True
+WO_0412,ASSET_009,2023-06-07,2023-06-30,Leak,Temporary patch applied,CONTR_005,True
+WO_0413,ASSET_037,2023-12-04,2023-12-31,Vibration,Full system recalibration,CONTR_001,False
+WO_0414,ASSET_007,2022-10-19,2022-11-05,Leak,Structural reinforcement applied,,True
+WO_0415,ASSET_031,2023-12-11,2024-01-06,Vibration,Tightened connections,CONTR_001,True
+WO_0416,ASSET_049,2022-10-05,2022-10-17,Structural Concern,Structural reinforcement applied,,True
+WO_0417,ASSET_048,2022-09-05,2022-09-15,Leak,Full system recalibration,CONTR_003,False
+WO_0418,ASSET_014,2025-02-26,2025-02-28,Structural Concern,Full system recalibration,CONTR_005,False
+WO_0419,ASSET_027,2024-02-29,2024-03-28,Temperature Issue,Major component replacement,CONTR_002,False
+WO_0420,ASSET_014,2023-10-21,2023-11-04,No Heat,Complete system overhaul,CONTR_004,False
+WO_0421,ASSET_041,2022-12-27,2023-01-01,Strange Noise,Full pipe segment replaced,CONTR_002,False
+WO_0422,ASSET_044,2023-02-10,2023-03-02,Leak,Reset unit,CONTR_005,True
+WO_0423,ASSET_005,2025-03-22,2025-04-17,No Heat,Complete system overhaul,CONTR_002,False
+WO_0424,ASSET_050,2023-08-02,2023-08-05,Air Quality,Temporary patch applied,CONTR_004,False
+WO_0425,ASSET_029,2025-04-12,2025-05-05,Vibration,Temporary patch applied,CONTR_004,False
+WO_0426,ASSET_005,2022-08-24,2022-08-31,Leak,Adjusted settings,CONTR_001,False
+WO_0427,ASSET_049,2025-05-03,2025-05-24,Out of Service,Cleaned filters,CONTR_002,True
+WO_0428,ASSET_044,2023-10-31,2023-11-28,Out of Service,Major component replacement,CONTR_004,False
+WO_0429,ASSET_048,2025-05-08,2025-05-30,Leak,Full system recalibration,CONTR_004,True
+WO_0430,ASSET_048,2024-10-27,2024-11-14,Air Quality,Tightened connections,CONTR_003,True
+WO_0431,ASSET_042,2022-09-13,2022-09-25,No Heat,Cleared blockage,,True
+WO_0432,ASSET_001,2022-06-28,2022-07-22,Pressure Problem,Temporary patch applied,CONTR_005,True
+WO_0433,ASSET_036,2025-03-19,2025-03-22,Water Quality,Replaced compressor,CONTR_005,False
+WO_0434,ASSET_044,2024-09-19,2024-10-16,Leak,Tightened connections,,True
+WO_0435,ASSET_023,2022-12-20,2023-01-11,Air Quality,Complete system overhaul,,False
+WO_0436,ASSET_039,2023-02-28,2023-03-23,Out of Service,Cleaned filters,CONTR_001,False
+WO_0437,ASSET_012,2022-10-14,2022-10-15,Water Quality,Adjusted settings,CONTR_002,True
+WO_0438,ASSET_009,2024-03-09,2024-04-06,Temperature Issue,Complete system overhaul,CONTR_005,False
+WO_0439,ASSET_020,2024-06-04,2024-06-26,Water Quality,Major component replacement,,False
+WO_0440,ASSET_013,2024-10-25,2024-11-06,Water Quality,Replaced compressor,CONTR_002,False
+WO_0441,ASSET_048,2023-08-25,2023-09-04,Out of Service,Adjusted settings,,False
+WO_0442,ASSET_037,2023-01-21,2023-02-13,Temperature Issue,Complete system overhaul,CONTR_001,False
+WO_0443,ASSET_006,2023-01-02,2023-01-15,Air Quality,Tightened connections,,False
+WO_0444,ASSET_046,2023-02-27,2023-03-23,Pressure Problem,Structural reinforcement applied,CONTR_003,False
+WO_0445,ASSET_003,2023-12-16,2023-12-31,Strange Noise,Full system recalibration,CONTR_001,False
+WO_0446,ASSET_027,2023-07-09,2023-07-19,Vibration,Reset unit,CONTR_003,True
+WO_0447,ASSET_014,2024-12-05,2024-12-30,Air Quality,Full system recalibration,CONTR_004,False
+WO_0448,ASSET_045,2023-09-05,2023-09-08,Water Quality,Tightened connections,CONTR_001,True
+WO_0449,ASSET_031,2024-02-27,2024-03-11,Water Quality,Full system recalibration,CONTR_003,True
+WO_0450,ASSET_036,2024-07-02,2024-07-21,Vibration,Reset unit,CONTR_004,True
+WO_0451,ASSET_011,2024-06-02,2024-07-02,Structural Concern,Full pipe segment replaced,,False
+WO_0452,ASSET_033,2023-06-19,2023-07-08,Air Quality,Temporary patch applied,CONTR_002,True
+WO_0453,ASSET_033,2025-01-10,2025-01-23,Structural Concern,Tightened connections,CONTR_003,True
+WO_0454,ASSET_029,2024-04-14,2024-05-05,Structural Concern,Reset unit,CONTR_004,False
+WO_0455,ASSET_022,2023-09-01,2023-09-05,Temperature Issue,Adjusted settings,,True
+WO_0456,ASSET_026,2024-05-31,2024-06-25,Temperature Issue,Structural reinforcement applied,CONTR_001,False
+WO_0457,ASSET_031,2023-10-25,2023-11-13,Out of Service,Cleared blockage,CONTR_004,False
+WO_0458,ASSET_026,2022-08-11,2022-08-28,Strange Noise,Full pipe segment replaced,CONTR_003,False
+WO_0459,ASSET_033,2025-03-05,2025-03-19,Air Quality,Full system recalibration,,False
+WO_0460,ASSET_020,2024-05-18,2024-06-15,Structural Concern,Reset unit,CONTR_003,True
+WO_0461,ASSET_024,2024-09-29,2024-10-13,Structural Concern,Full system recalibration,CONTR_003,False
+WO_0462,ASSET_004,2024-01-17,2024-02-03,Vibration,Cleared blockage,CONTR_004,False
+WO_0463,ASSET_025,2022-11-22,2022-11-26,Leak,Replaced compressor,CONTR_003,True
+WO_0464,ASSET_018,2024-02-21,2024-03-17,Pressure Problem,Temporary patch applied,CONTR_004,False
+WO_0465,ASSET_046,2022-12-08,2022-12-12,Vibration,Tightened connections,,False
+WO_0466,ASSET_042,2023-09-03,2023-09-24,Structural Concern,Replaced compressor,,False
+WO_0467,ASSET_039,2024-02-19,2024-03-02,No Heat,Temporary patch applied,CONTR_004,True
+WO_0468,ASSET_032,2024-09-08,2024-09-13,Pressure Problem,Major component replacement,CONTR_005,True
+WO_0469,ASSET_029,2025-03-19,2025-03-24,Leak,Cleaned filters,CONTR_004,True
+WO_0470,ASSET_009,2024-06-17,2024-07-04,Strange Noise,Cleared blockage,CONTR_001,False
+WO_0471,ASSET_002,2024-01-20,2024-01-27,Structural Concern,Complete system overhaul,,False
+WO_0472,ASSET_026,2024-10-27,2024-11-26,Leak,Tightened connections,CONTR_004,False
+WO_0473,ASSET_042,2025-02-01,2025-02-07,Pressure Problem,Complete system overhaul,CONTR_005,True
+WO_0474,ASSET_018,2024-01-28,2024-02-17,Leak,Adjusted settings,CONTR_002,True
+WO_0475,ASSET_047,2023-01-19,2023-02-16,Strange Noise,Tightened connections,CONTR_002,False
+WO_0476,ASSET_018,2023-07-25,2023-08-20,Strange Noise,Tightened connections,CONTR_003,False
+WO_0477,ASSET_040,2024-03-14,2024-04-04,Air Quality,Replaced compressor,CONTR_003,True
+WO_0478,ASSET_047,2022-08-19,2022-09-16,Water Quality,Reset unit,CONTR_001,True
+WO_0479,ASSET_033,2022-07-29,2022-08-20,Out of Service,Complete system overhaul,CONTR_001,True
+WO_0480,ASSET_030,2023-03-15,2023-04-13,Air Quality,Structural reinforcement applied,CONTR_005,False
+WO_0481,ASSET_039,2023-12-22,2024-01-17,Out of Service,Reset unit,CONTR_005,False
+WO_0482,ASSET_017,2023-04-09,2023-04-19,Water Quality,Cleaned filters,CONTR_004,True
+WO_0483,ASSET_027,2023-04-19,2023-04-28,Strange Noise,Adjusted settings,CONTR_002,False
+WO_0484,ASSET_035,2024-08-13,2024-09-04,Structural Concern,Tightened connections,CONTR_005,False
+WO_0485,ASSET_008,2024-09-25,2024-10-18,Out of Service,Reset unit,CONTR_003,True
+WO_0486,ASSET_025,2022-12-03,2023-01-02,Air Quality,Replaced compressor,CONTR_005,True
+WO_0487,ASSET_031,2023-10-12,2023-10-20,Structural Concern,Temporary patch applied,CONTR_004,True
+WO_0488,ASSET_047,2024-04-02,2024-04-25,Vibration,Adjusted settings,CONTR_004,True
+WO_0489,ASSET_027,2023-09-29,2023-10-17,No Heat,Temporary patch applied,,True
+WO_0490,ASSET_018,2023-08-11,2023-08-23,Pressure Problem,Complete system overhaul,,False
+WO_0491,ASSET_040,2024-11-10,2024-12-10,Out of Service,Complete system overhaul,CONTR_005,True
+WO_0492,ASSET_010,2025-05-02,2025-05-13,Water Quality,Cleaned filters,CONTR_003,False
+WO_0493,ASSET_001,2023-07-17,2023-07-19,Water Quality,Structural reinforcement applied,CONTR_002,False
+WO_0494,ASSET_046,2023-07-19,2023-07-23,Water Quality,Tightened connections,CONTR_004,False
+WO_0495,ASSET_037,2024-11-11,2024-12-03,Pressure Problem,Major component replacement,CONTR_003,False
+WO_0496,ASSET_050,2024-06-22,2024-07-19,Air Quality,Replaced compressor,CONTR_004,False
+WO_0497,ASSET_023,2022-10-30,2022-11-27,Pressure Problem,Tightened connections,CONTR_005,True
+WO_0498,ASSET_011,2024-01-12,2024-01-18,Structural Concern,Tightened connections,CONTR_002,False
+WO_0499,ASSET_047,2024-06-07,2024-06-24,Leak,Full pipe segment replaced,CONTR_001,True
+WO_0500,ASSET_047,2024-12-14,2025-01-11,Pressure Problem,Reset unit,CONTR_003,True
