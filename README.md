@@ -1,94 +1,65 @@
-# NYCHA QualityGuard Pro
+# NYCHA QualityGuard Pro (or Your Chosen App Name)
 
-A professional-grade backend system for NYCHA complaint analysis and quality monitoring.
+## 🚀 Project Summary
 
-## Project Structure
+NYCHA QualityGuard Pro is an AI-native application designed to empower NYCHA (New York City Housing Authority) Superintendents. It provides intelligent insights into maintenance operations, helping them move beyond purely reactive, numbers-driven work towards proactive, quality-focused building stewardship. The application aims to assist superintendents in identifying urgent resident-reported issues, predicting potential rework for completed jobs, and accessing relevant contextual information to make more informed decisions, ultimately improving resident living conditions and operational efficiency.
 
-```
-Nychaguard/
-├── backend/
-│   ├── app.py                 # Main application entry point
-│   ├── config/               # Configuration management
-│   │   ├── __init__.py
-│   │   └── development.py    # Development settings
-│   ├── api/                  # API routes and controllers
-│   │   ├── __init__.py
-│   │   ├── routes/          # Route definitions
-│   │   └── schemas/         # Request/Response schemas
-│   ├── services/            # Business logic layer
-│   │   ├── __init__.py
-│   │   ├── ai/             # AI-related services
-│   │   └── complaint/      # Complaint handling services
-│   ├── agents/             # Agent definitions
-│   │   └── __init__.py
-│   ├── mcp/                # MCP tool definitions
-│   │   ├── __init__.py
-│   │   ├── tools/          # Tool implementations
-│   │   └── schemas/        # Tool schemas
-│   ├── utils/              # Utility functions
-│   │   └── __init__.py
-│   ├── models/             # Data models
-│   │   └── __init__.py
-│   └── tests/              # Test suite
-│       ├── __init__.py
-│       ├── test_api/       # API tests
-│       ├── test_services/  # Service tests
-│       └── test_agents/    # Agent tests
-├── .env.example            # Example environment variables
-├── .gitignore             # Git ignore file
-├── requirements.txt       # Python dependencies
-└── README.md             # Project documentation
-```
+## ✨ Core Features (MVP & Vision)
 
-## Setup
+*   **AI-Powered Daily Quality Briefing:** A `smolagent` (`CodeAgent` powered by Google Gemini) generates a concise daily briefing highlighting:
+    *   Newly flagged urgent 311 complaints based on NLP analysis.
+    *   (Simulated) Recently closed work orders with a high predicted rework risk.
+    *   (Stretch Goal) Contextual information from a knowledge base (e.g., NYCHA SOPs) related to flagged items using Agentic RAG principles.
+*   **Urgent Complaint Identification:** Leverages Natural Language Processing (NLP) on NYC 311 data to automatically detect and flag complaints indicating potential safety, health, or critical service issues.
+*   **Rework Risk Prediction (Conceptual Demo):** Utilizes a rule-based engine (or simple ML on synthetic data) to assess the likelihood of a (simulated) completed work order requiring rework, based on factors like asset age, resolution type, and contractor history.
+*   **Interactive Superintendent Dashboard:** A modern web interface (built with Bolt.new) for superintendents to view the daily briefing, explore lists of urgent complaints with AI-derived insights, and analyze rework risk assessments.
+*   **MCP-Inspired Tool Server:** Core AI capabilities (Urgency Flagging, Rework Risk Assessment, Knowledge Base Access) are exposed as well-defined tools via an internal server (using `mcp.server.fastmcp`), enabling interoperability and use by the `smolagent`.
 
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/Nychaguard.git
-cd Nychaguard
-```
+## 🛠️ Tech Stack & Architecture
 
-2. Create and activate a virtual environment:
-```bash
-python3 -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+The project employs a modern, AI-native tech stack:
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+**Frontend:**
 
-4. Set up environment variables:
-```bash
-cp .env.example .env
-# Edit .env with your configuration
-```
+*   **UI Framework:** [Bolt.new](https://bolt.new/) (for the main dynamic web application)
+*   **Language:** Likely TypeScript/JavaScript (as per Bolt.new's typical stack)
+*   **Styling:** Tailwind CSS (or as configured by Bolt.new)
+*   **Icons:** Lucide React (or similar)
+*   **(Optional Prototyping):** Gradio (for rapid interactive demos of individual AI components or simple agent interactions)
 
-5. Run the development server:
-```bash
-cd backend
-python app.py
-```
+**Backend:**
 
-## API Endpoints
+*   **Language:** Python
+*   **Web Framework:** Flask (using a factory pattern and Blueprints for organization)
+*   **AI/ML & Data Processing:**
+    *   `pandas`, `numpy`: For data manipulation.
+    *   `nltk`, `spaCy`, `scikit-learn`: For Natural Language Processing (keyword spotting, text classification) and basic Machine Learning.
+*   **Agent Framework:**
+    *   `smolagents`: Specifically `CodeAgent` for orchestrating tasks and using tools.
+*   **LLM Integration:**
+    *   Google Gemini (e.g., `gemini-1.0-pro` or `gemini-1.5-flash`) via its OpenAI-compatible API endpoint, integrated using `smolagents.OpenAIServerModel`.
+*   **MCP (Model-Context Protocol) Implementation:**
+    *   `mcp` library: Using `mcp.server.fastmcp` to create an internal server exposing backend AI services as callable "tools" for the `smolagent`.
+*   **API Communication:**
+    *   `requests`: For calling external APIs (e.g., NYC OpenData).
+    *   RESTful APIs built with Flask to connect backend services to the Bolt.new frontend.
+*   **Database:**
+    *   PostgreSQL (primary choice for structured data) or SQLite (for simpler MVP needs).
+    *   (Stretch Goal) Vector Database (e.g., Chroma, FAISS) for Agentic RAG knowledge base.
+*   **Environment Management:** `python-dotenv`
 
-- `GET /`: Health check endpoint
-- `GET /api/test`: Test endpoint
+**Development & Operations Tools:**
 
-## Development
+*   **IDE:** Cursor (AI-assisted code editor)
+*   **Version Control:** Git & GitHub
+*   **Virtual Environments:** `venv` or `conda`
+*   **Code Quality:** Black (formatter), Flake8 (linter) (as per initial setup)
+*   **Testing:** Pytest (as per initial setup)
+*   **Security (for Agent Execution - Planned):** Docker / E2B for sandboxing `CodeAgent` execution.
+*   **Debugging & Monitoring (Planned):** Langfuse (for agent tracing), MCP Inspector Tool.
 
-- The application uses Flask for the backend
-- Configuration is managed through the `config` directory
-- Environment variables are loaded from `.env` file
+## 🏁 Project Status
 
-## Testing
+Currently in Phase 2 of MVP development, focusing on implementing the `smolagent`-driven Daily Briefing and integrating the Rework Risk Prediction service. Phase 1 (311 Data Ingestion, NLP Urgency Flagging, and initial Frontend Dashboard) is largely complete.
 
-Run tests using pytest:
-```bash
-pytest
-```
-
-## License
-
-[Your chosen license] 
+*(Adjust the "Project Status" as you progress!)*
